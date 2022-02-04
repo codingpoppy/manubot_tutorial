@@ -36,13 +36,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://codingpoppy.github.io/manubot_tutorial/" />
   <meta name="citation_pdf_url" content="https://codingpoppy.github.io/manubot_tutorial/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://codingpoppy.github.io/manubot_tutorial/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://codingpoppy.github.io/manubot_tutorial/v/afe71b3828aa6e5b0fed5267ccad0f04858620c2/" />
-  <meta name="manubot_html_url_versioned" content="https://codingpoppy.github.io/manubot_tutorial/v/afe71b3828aa6e5b0fed5267ccad0f04858620c2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://codingpoppy.github.io/manubot_tutorial/v/afe71b3828aa6e5b0fed5267ccad0f04858620c2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://codingpoppy.github.io/manubot_tutorial/v/6926519586a9be0e93d18f771688f20b5cad64d2/" />
+  <meta name="manubot_html_url_versioned" content="https://codingpoppy.github.io/manubot_tutorial/v/6926519586a9be0e93d18f771688f20b5cad64d2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://codingpoppy.github.io/manubot_tutorial/v/6926519586a9be0e93d18f771688f20b5cad64d2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/codingpoppy/manubot_tutorial/raw/afe71b3828aa6e5b0fed5267ccad0f04858620c2/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/codingpoppy/manubot_tutorial/raw/afe71b3828aa6e5b0fed5267ccad0f04858620c2/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/codingpoppy/manubot_tutorial/raw/6926519586a9be0e93d18f771688f20b5cad64d2/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/codingpoppy/manubot_tutorial/raw/6926519586a9be0e93d18f771688f20b5cad64d2/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -62,9 +62,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://codingpoppy.github.io/manubot_tutorial/v/afe71b3828aa6e5b0fed5267ccad0f04858620c2/))
+([permalink](https://codingpoppy.github.io/manubot_tutorial/v/6926519586a9be0e93d18f771688f20b5cad64d2/))
 was automatically generated
-from [codingpoppy/manubot_tutorial@afe71b3](https://github.com/codingpoppy/manubot_tutorial/tree/afe71b3828aa6e5b0fed5267ccad0f04858620c2)
+from [codingpoppy/manubot_tutorial@6926519](https://github.com/codingpoppy/manubot_tutorial/tree/6926519586a9be0e93d18f771688f20b5cad64d2)
 on February 4, 2022.
 </em></small>
 
@@ -89,7 +89,7 @@ on February 4, 2022.
 This is an example of a manuscript in Manubot. In this file, we will cover how to add tables, figures, mathematical equations, and citations to your manuscript text.
 
 ### Tables
-Tables can be created manually or using the tables generator webapp: [https://www.tablesgenerator.com/markdown_tables#].
+Tables can be created manually or using the tables generator webapp: <https://www.tablesgenerator.com/markdown_tables#>.
 See Table @tbl:example-1
 
 |           | Age | Gender |
@@ -114,7 +114,7 @@ $$\frac{\partial}{\partial \boldsymbol{X}}f(\boldsymbol{X}) = 2\boldsymbol{X};  
 #### Direct citations
 Manubot supports multiple citations methods, including DOI, PubMed ID, url, etc.
 
-See [https://github.com/manubot/rootstock/blob/main/USAGE.md] for the Manubot's prefix for the list of supported citation methods. Reference prefixes can also be added manually into the metadata file.
+See <https://github.com/manubot/rootstock/blob/main/USAGE.md> for the Manubot's prefix for the list of supported citation methods. Reference prefixes can also be added manually into the metadata file.
 
 For example, for the following paper: "Pulmonary acini exhibit complex changes during postnatal rat lung development", we can cite via several of the following ways:\
 *using DOI: [@doi:10.1371/journal.pone.0257349]
@@ -133,7 +133,7 @@ We can add the following lines in the ./content/metadata.yaml file:
 <pre>
 pandoc:
   citekey-aliases:
-    my-url: [https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0257349]
+    my-url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0257349
 </pre>
 
 
