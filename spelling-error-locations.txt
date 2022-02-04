@@ -1,4 +1,3 @@
-content/00.front-matter.md:4:Pandoc
 content/00.front-matter.md:4:yaml
 content/01.manubot text example.md:5:webapp
 content/01.manubot text example.md:30:Manubot's
@@ -6,5 +5,3 @@ content/01.manubot text example.md:32:acini
 content/01.manubot text example.md:39:acini
 content/01.manubot text example.md:39:supoprted
 content/01.manubot text example.md:44:yaml
-content/01.manubot text example.md:46:pandoc
-content/01.manubot text example.md:47:citekey
