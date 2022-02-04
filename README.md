@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/codingpoppy/manubot_tutorial/tree/gh-pages) branch hosts the contents of this directory at <https://codingpoppy.github.io/manubot_tutorial/>.
-The permalink for this webpage version is <https://codingpoppy.github.io/manubot_tutorial/v/5754996207e189e72776124da828c8626a98e33c/>.
+The permalink for this webpage version is <https://codingpoppy.github.io/manubot_tutorial/v/afe71b3828aa6e5b0fed5267ccad0f04858620c2/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://codingpoppy.github.io/manubot_tutorial/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`5754996207e189e72776124da828c8626a98e33c`](https://github.com/codingpoppy/manubot_tutorial/commit/5754996207e189e72776124da828c8626a98e33c).
+[`afe71b3828aa6e5b0fed5267ccad0f04858620c2`](https://github.com/codingpoppy/manubot_tutorial/commit/afe71b3828aa6e5b0fed5267ccad0f04858620c2).
